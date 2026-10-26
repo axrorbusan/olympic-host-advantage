@@ -1,0 +1,126 @@
+{
+  "athlete_rows": 271116,
+  "games": 51,
+  "medal_rows_naive": 39783,
+  "medals_corrected": 18905,
+  "validation_vs_official_totals": {
+    "2008 Summer CHN": {
+      "naive": 184,
+      "corrected": 100,
+      "official": 100
+    },
+    "2012 Summer GBR": {
+      "naive": 126,
+      "corrected": 65,
+      "official": 65
+    },
+    "1980 Summer URS": {
+      "naive": 442,
+      "corrected": 195,
+      "official": 195
+    },
+    "2016 Summer USA": {
+      "naive": 264,
+      "corrected": 121,
+      "official": 121
+    },
+    "2014 Winter RUS": {
+      "naive": 68,
+      "corrected": 33,
+      "official": 33
+    },
+    "1984 Summer USA": {
+      "naive": 352,
+      "corrected": 173,
+      "official": 174
+    }
+  },
+  "hosts_missing_in_data": [],
+  "summer_before_after": {
+    "n_hosts": 29,
+    "share_higher_when_hosting": 28,
+    "median_share_ratio": 1.7000553482271452,
+    "median_share_ratio_excl_boycott_games": 1.7000553482271452,
+    "median_athlete_ratio": 2.0272108843537415,
+    "median_extra_share_points": 3.2156656937533707,
+    "median_share_ratio_since_1948": 1.4220475337072205,
+    "median_athlete_ratio_since_1948": 1.6974716708783828,
+    "n_hosts_since_1948": 18
+  },
+  "winter_before_after": {
+    "n_hosts": 22,
+    "share_higher_when_hosting": 19,
+    "median_share_ratio": 1.5559679299167637,
+    "median_share_ratio_excl_boycott_games": 1.5559679299167637,
+    "median_athlete_ratio": 1.4828224101479917,
+    "median_extra_share_points": 2.888022889691862,
+    "median_share_ratio_since_1948": 1.5387819201556874,
+    "median_athlete_ratio_since_1948": 1.4557416267942584,
+    "n_hosts_since_1948": 18
+  },
+  "poisson_fe": {
+    "Summer_host_only": {
+      "multiplier": 2.4284164596622495,
+      "lo": 1.9138194006734652,
+      "hi": 3.081380876107396,
+      "p": 2.8261791591471887e-13,
+      "n_obs": 2146
+    },
+    "Summer_plus_team_size": {
+      "multiplier": 1.0312352142699492,
+      "lo": 0.9047240443983257,
+      "hi": 1.1754369453700306,
+      "p": 0.6450866455807398,
+      "n_obs": 2146,
+      "athlete_elasticity": 0.9270781929441537
+    },
+    "Winter_host_only": {
+      "multiplier": 1.486787344464495,
+      "lo": 1.3167454221071953,
+      "hi": 1.6787881473111563,
+      "p": 1.5486247569468622e-10,
+      "n_obs": 646
+    },
+    "Winter_plus_team_size": {
+      "multiplier": 1.1817163284579635,
+      "lo": 0.9925533837580243,
+      "hi": 1.4069303513498597,
+      "p": 0.06065277866706837,
+      "n_obs": 646,
+      "athlete_elasticity": 0.6686013724737725
+    },
+    "Summer_since_1948_host_only": {
+      "multiplier": 1.5621961927352805,
+      "lo": 1.2846730541569724,
+      "hi": 1.8996716220517924,
+      "p": 7.810474273076773e-06,
+      "n_obs": 1780
+    },
+    "Summer_since_1948_plus_team_size": {
+      "multiplier": 1.0067866063890354,
+      "lo": 0.9064153793717129,
+      "hi": 1.118272365928904,
+      "p": 0.8995500283043749,
+      "n_obs": 1780,
+      "athlete_elasticity": 1.0395849775749597
+    }
+  },
+  "share_of_host_effect_explained_by_team_size": {
+    "Summer": 0.9653336838939974,
+    "Winter": 0.5790205040063985
+  },
+  "all_time_top12_inflation": {
+    "USA": 1.9968119022316684,
+    "URS": 2.091060985797828,
+    "GER": 2.156374501992032,
+    "GBR": 2.250272034820457,
+    "FRA": 2.0216154721274173,
+    "ITA": 2.2673130193905817,
+    "SWE": 2.3378995433789953,
+    "CAN": 2.8463157894736844,
+    "AUS": 2.5433526011560694,
+    "RUS": 1.99486301369863,
+    "HUN": 2.2254901960784315,
+    "NED": 2.555282555282555
+  }
+}
